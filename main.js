@@ -1,3 +1,24 @@
+let somebutton = document.getElementById("smbt");
+setTimeout(() => {
+  let error = document.createElement("div");
+  error.className = "errormsg";
+  let msg = document.createTextNode("Some technincal error was updated!");
+  let p = document.createElement("p");
+  p.appendChild(msg);
+  error.appendChild(p);
+  let x = document.createElement("p");
+  x.className = "x";
+  let t = document.createTextNode("x");
+  x.appendChild(t);
+  error.append(x);
+  somebutton.append(error);
+  x.onclick = () => {
+    x.parentElement.remove();
+  };
+}, 10000);
+
+
+
 let a =
   "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQR48STUVWXYZ1234_$abcgtrg1567890_@$";
 let num = 8;
