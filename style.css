@@ -340,6 +340,44 @@ label {
     animation: fade-loaders 0.2s 3s forwards;
 }
 
+.errormsg {
+    background-color: #53902a;
+    color: wheat;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+    margin: 80px auto;
+    z-index: 999;
+    position: fixed;
+    border-radius: 20px;
+
+
+}
+
+.errormsg:nth-child(2) {
+    font-size: 30px;
+}
+
+
+
+
+
+.x {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: fantasy;
+    cursor: pointer;
+}
+
 
 .loader:after {
     content: "";
