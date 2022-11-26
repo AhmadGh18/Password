@@ -12,7 +12,20 @@
 
 }
 
+.somebutton {
 
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.somebutton button {
+    padding: 5px 10px;
+}
+
+#range {
+    background-color: transparent;
+}
 
 h2 {
     color: white;
