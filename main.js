@@ -18,7 +18,6 @@ setTimeout(() => {
 }, 10000);
 
 
-
 let a =
   "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQR48STUVWXYZ1234_$abcgtrg1567890_@$";
 let num = 8;
